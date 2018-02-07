@@ -1,15 +1,21 @@
 /*
 =======================================
 CSS INDEX:
-  0. FONTS
-  1. GENERAL
-  2. PRELOADER
-  3. HEADER
+  0.  FONTS
+  1.  GENERAL
+  2.  PRELOADER
+  3.  HEADER
     - NAVBAR
     - BRAND
     - BUTTONS
-  4. OUR SERVICES
-  5. OUR LATEST WORK
+  4.  OUR SERVICES
+  5.  OUR LATEST WORK
+  6.  OUR FACTS
+  7.  OUR TEAM
+  8.  PRICING TABLE
+  9.  TESTIMONIALS
+  10. CONTACT 
+  11. FOOTER
 
 =======================================
 */
@@ -415,7 +421,7 @@ a.navbar-brand:hover {
   color: #06CEA8 !important;
 }
 
-/* === 5. OUR FACTS === */
+/* === 6. OUR FACTS === */
 
 .our-facts .title h4 {
   margin-bottom: 30px;
@@ -455,7 +461,7 @@ a.navbar-brand:hover {
 }
 
 
-/* === 5. OUR TEAM === */
+/* === 7. OUR TEAM === */
 .our-team {
   background: #EDF1F4;
   color: #4c5667;
@@ -504,7 +510,7 @@ a.navbar-brand:hover {
   color: #06CEA8;
 }
 
-/* === 6. PRICE TABLE === */
+/* === 8. PRICE TABLE === */
 
 .our-pricing .title h4{
   margin-bottom: 30px;
@@ -599,7 +605,7 @@ a.navbar-brand:hover {
   color: #06CEA8;
 }
 
-/* === 7. TESTIMONIALS === */
+/* === 9. TESTIMONIALS === */
 
 .testimonials {
   background: #364359;
@@ -660,7 +666,7 @@ a.navbar-brand:hover {
   outline: none;
 }
 
-/* === 8. CONTACT  === */
+/* === 10. CONTACT  === */
 
 .contact {
   background: #06cea8;
@@ -753,7 +759,7 @@ a.navbar-brand:hover {
 }
 
 
-/* === 9. FOOTER  === */
+/* === 11. FOOTER  === */
 
 .footer {
   text-align: center;
