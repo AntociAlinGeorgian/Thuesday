@@ -24,6 +24,7 @@ CSS INDEX:
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 
 /* === 1. GENERAL === */
@@ -174,13 +175,14 @@ img {
 }
 
 a.navbar-brand {
-    padding-top: 7px;
+    padding-top: 10px;
     transition: all .3s ease-in-out;
 }
 
 a.navbar-brand:hover {
   color: #06CEA8;
 }
+
 
 
 .navbar-fixed-top .navbar-brand span{
@@ -202,9 +204,6 @@ a.navbar-brand:hover {
 
 /* header content */
 .header-section {
-  background: url('../img/header-bg.jpg');
-  background-attachment: fixed;
-  background-size: cover;
   height: 100vh;
   width: 100%;
   position: relative;
@@ -232,9 +231,10 @@ a.navbar-brand:hover {
 .header-content .header-cont h1 {
   font-weight: 300;
   font-size: 42px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   display: inline-block;
   color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .header-content .header-cont p {
@@ -242,7 +242,7 @@ a.navbar-brand:hover {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 /* buttons */
@@ -288,6 +288,7 @@ a.navbar-brand:hover {
   margin-bottom: 30px;
   color: #4c5667;
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* services */
@@ -341,6 +342,7 @@ a.navbar-brand:hover {
   color: #212121;
   line-height: 25px;
   text-transform: uppercase;
+
   font-size: 14px;
   cursor: pointer;
   margin: 0 14px;
@@ -471,6 +473,7 @@ a.navbar-brand:hover {
 .our-facts h4 {
   font-size: 15px;
   text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 3px;
   margin-bottom: 0;
   line-height: 20px;
@@ -478,7 +481,7 @@ a.navbar-brand:hover {
 }
 
 .our-facts .fact-item span {
-  font-size: 50px;
+  font-size: 55px;
   padding-top: 0;
 }
 
@@ -514,11 +517,13 @@ a.navbar-brand:hover {
 
 .our-team .team-member h3 {
   padding-top: 15px;
-  padding-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .our-team .team-member p {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+  font-style: italic;
+  font-size: 13px
 }
 
 .our-team ul {
@@ -569,8 +574,9 @@ a.navbar-brand:hover {
 }
 
 .our-pricing .item .type h5 {
-  font-size: 23px;
-  letter-spacing: 3px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .our-pricing .item .amount {
@@ -661,8 +667,8 @@ a.navbar-brand:hover {
 
 .testimonial-box p {
   color: #fff;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 100;
   line-height: 25px;
   margin-bottom: 30px;
   letter-spacing: 1px;
@@ -674,7 +680,8 @@ a.navbar-brand:hover {
 }
 
 .testimonial-box h3 {
-  text-transform: uppercase;
+
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2p;x
   font-size: 14px;
   padding-bottom: 30px;
