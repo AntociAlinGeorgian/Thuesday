@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
   //preloader
+  $(window).on('load', function(){
+    $('.loading').fadeOut(500);
+  });
 
   //navbar
   $(document).scroll(function(){
