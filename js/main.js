@@ -5,6 +5,19 @@ $(document).ready(function() {
     $('.loading').fadeOut(500);
   });
 
+  //color switcher
+  $('.open-switcher').click(function(){
+    $('.color-options').fadeToggle();
+  });
+
+  $(function(){
+    var colorLink = $('.color-options li');
+
+    colorLink.click(function(){
+      $('link[href*="color"]').attr('href', $(this).attr('data-value'));
+    });
+  });
+
   //random header background
   $(function(){
     var imgArray = new Array(

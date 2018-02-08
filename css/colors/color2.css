@@ -1,0 +1,111 @@
+/* HEADER */
+
+.load-icon {
+  border: 2px solid #3A8BC2;
+}
+
+.fixed .navbar-nav .active a {
+  color: #3A8BC2 !important;
+}
+
+.fixed .navbar-nav .active a:hover {
+  color: #3A8BC2 !important;
+}
+
+a.navbar-brand:hover {
+  color: #3A8BC2;
+}
+
+.navbar-nav a.active {
+  color: #3A8BC2 !important;
+}
+
+.header-content .header-cont .header-btn a:last-child {
+  background: #3A8BC2;
+  border: 1px solid #3A8BC2;
+}
+
+
+/* OUR LATEST WORK  */
+
+.our-latest-work .filter-work a {
+  border: 1px solid #3A8BC2;
+}
+
+.our-latest-work .filter-work .checked {
+  background: #3A8BC2;
+}
+
+.our-latest-work .work-preview .overlay {
+  background: rgba(58, 138, 194, 0.8);
+}
+
+.mfp-close:hover{
+  color: #3A8BC2;
+}
+
+.mfp-close-btn-in .mfp-close {
+  color: #3A8BC2 !important;
+}
+
+/* OUR FACTS  */
+
+.our-facts {
+  background: #3A8BC2;
+}
+
+
+/* OUR TEAM  */
+
+.our-team ul li span:hover {
+  color: #3A8BC2;
+}
+
+/* PRICING TABLE  */
+
+.our-pricing .item {
+    border: 1px solid #3A8BC2;
+}
+
+.our-pricing .item:hover  {
+  border: 2px solid #3A8BC2;
+}
+
+.our-pricing .item #popular {
+  background: #3A8BC2;
+}
+
+.our-pricing .item .order a {
+  border: 1px solid #3A8BC2;
+  background: #3A8BC2;
+}
+
+.our-pricing .item .order a:hover {
+  color: #3A8BC2;
+}
+
+/* TESTIMONIALS */
+
+.testimonials .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #3A8BC2;
+}
+
+/* CONTACT  */
+
+.contact {
+  background: #3A8BC2;
+}
+
+.contact-item .button:hover {
+  color: #3A8BC2;
+}
+
+/* FOOTER  */
+
+.footer .social-icons span {
+  background: #3A8BC2;
+}
+
+.footer .social-icons span:hover {
+  color: #3A8BC2;
+}

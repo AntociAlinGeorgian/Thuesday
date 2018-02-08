@@ -1,0 +1,115 @@
+/* HEADER */
+
+.load-icon {
+  border: 2px solid #E33441;
+}
+
+.fixed .navbar-nav .active a {
+  color: #E33441 !important;
+}
+
+.fixed .navbar-nav .active a:hover {
+  color: #E33441 !important;
+}
+
+a.navbar-brand:hover {
+  color: #E33441;
+}
+
+.navbar-nav a.active {
+  color: #E33441 !important;
+}
+
+.header-content .header-cont .header-btn a:last-child {
+  background: #E33441;
+  border: 1px solid #E33441;
+}
+
+
+/* OUR LATEST WORK  */
+
+.our-latest-work .filter-work a {
+  border: 1px solid #E33441;
+}
+
+.our-latest-work .filter-work .checked {
+  background: #E33441;
+}
+
+.our-latest-work .work-preview .overlay {
+  background: rgba(227, 52, 65, 0.8);
+}
+
+.mfp-close:hover{
+  color: #E33441;
+}
+
+.mfp-close-btn-in .mfp-close {
+  color: #E33441 !important;
+}
+
+/* OUR FACTS  */
+
+.our-facts {
+  background: #E33441;
+}
+
+
+/* OUR TEAM  */
+
+.our-team ul li span:hover {
+  color: #E33441;
+}
+
+/* PRICING TABLE  */
+
+.our-pricing .item {
+    border: 1px solid #E33441;
+}
+
+.our-pricing .item:hover  {
+  border: 2px solid #E33441;
+}
+
+.our-pricing .item #popular {
+  background: #E33441;
+}
+
+.our-pricing .item .order a {
+  border: 1px solid #E33441;
+  background: #E33441;
+}
+
+.our-pricing .item .order a:hover {
+  color: #E33441;
+}
+
+/* TESTIMONIALS */
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #E33441;
+}
+
+.testimonials .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #E33441;
+}
+
+/* CONTACT  */
+
+.contact {
+  background: #E33441;
+}
+
+.contact-item .button:hover {
+  color: #E33441;
+}
+
+/* FOOTER  */
+
+.footer .social-icons span {
+  background: #E33441;
+}
+
+.footer .social-icons span:hover {
+  color: #E33441;
+}

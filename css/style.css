@@ -4,6 +4,7 @@ CSS INDEX:
   0.  FONTS
   1.  GENERAL
   2.  PRELOADER
+    - COLOR SWITCHER
   3.  HEADER
     - NAVBAR
     - BRAND
@@ -95,7 +96,6 @@ img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 2px solid #06CEA8;
   border-top: 2px solid #f1f1f1;
   animation: rotate .7s infinite linear;
 }
@@ -110,6 +110,97 @@ img {
   }
 }
 
+/* COLOR SWITCHER */
+.color-switcher {
+  position: fixed;
+  z-index: 101;
+  right: 0;
+  top: 0;
+}
+
+.color-switcher .color-options {
+  float: left;
+  display: none;
+  width: auto;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 30vh;
+}
+
+.colors-options ul {
+  padding: 0;
+  margin: 0;
+}
+
+.colors-options #switcher-title {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.color-options span {
+  color: #a1a1a1;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.color-options .colors-list ul li {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.open-switcher {
+  color: #a1a1a1;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 12px 17px 10px 17px;
+  float: left;
+  border-left-color: #fff;
+  font-size: 20px;
+  margin-top: 30vh;
+  animation: changeColor 5s  infinite;
+}
+
+@keyframes changeColor {
+
+  0% {
+    color: #a1a1a1;
+  }
+  25% {
+    color: #3A8BC2;
+  }
+  50% {
+    color: #E33441;
+  }
+  75% {
+    color: #FE9611;
+  }
+  100% {
+    color: #06CEA8;
+  }
+
+}
+
+.color-options #color1 {
+  background: #06CEA8;
+}
+.color-options #color2 {
+  background: #3A8BC2;
+}
+.color-options #color3 {
+  background: #E33441;
+}
+.color-options #color4 {
+  background: #FE9611;
+}
 
 /* === 3. HEADER === */
 
@@ -161,13 +252,6 @@ img {
   transition: all .3s ease-in-out;
 }
 
-.fixed .navbar-nav .active a {
-  color: #06CEA8 !important;
-}
-
-.fixed .navbar-nav .active a:hover {
-  color: #06CEA8 !important;
-}
 
 /* brand */
 .navbar-fixed-top .navbar-brand {
@@ -177,10 +261,6 @@ img {
 a.navbar-brand {
     padding-top: 10px;
     transition: all .3s ease-in-out;
-}
-
-a.navbar-brand:hover {
-  color: #06CEA8;
 }
 
 
@@ -198,9 +278,7 @@ a.navbar-brand:hover {
   display: inline-block;
 }
 
-.navbar-nav a.active {
-  color: #06CEA8 !important;
-}
+
 
 /* header content */
 .header-section {
@@ -262,11 +340,6 @@ a.navbar-brand:hover {
 .header-content .header-cont .header-btn a:hover {
   background: #fff;
   color: #232323;
-}
-
-.header-content .header-cont .header-btn a:last-child {
-  background: #06CEA8;
-  border: 1px solid #06CEA8;
 }
 
 /* === 4. OUR BEST SERVICES === */
@@ -347,12 +420,11 @@ a.navbar-brand:hover {
   cursor: pointer;
   margin: 0 14px;
   padding: 7px 14px;
-  border: 1px solid #06CEA8;
+
   transition: all .3s ease-in-out;
 }
 
 .our-latest-work .filter-work .checked {
-  background: #06CEA8;
   color: #fff;
 }
 
@@ -378,7 +450,6 @@ a.navbar-brand:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(6, 206, 167, 0.8);
   opacity: 0;
   transition: .3s ease-out;
 }
@@ -444,14 +515,6 @@ a.navbar-brand:hover {
   height: auto;
 }
 
-.mfp-close:hover{
-  color: #06CEA8;
-}
-
-.mfp-close-btn-in .mfp-close {
-  color: #06CEA8 !important;
-}
-
 /* === 6. OUR FACTS === */
 
 .our-facts .title h4 {
@@ -462,7 +525,6 @@ a.navbar-brand:hover {
 }
 
 .our-facts {
-  background: #06CEA8;
   color: #fff;
 }
 
@@ -540,10 +602,6 @@ a.navbar-brand:hover {
   transition: all .3s ease-in-out;
 }
 
-.our-team ul li span:hover {
-  color: #06CEA8;
-}
-
 /* === 8. PRICE TABLE === */
 
 .our-pricing .title h4{
@@ -559,12 +617,10 @@ a.navbar-brand:hover {
   position: relative;
   padding: 50px;
   overflow: hidden;
-  border: 1px solid #06CEA8;
   transition: all .3s ease-in-out;
 }
 
 .our-pricing .item:hover {
-  border: 2px solid #06CEA8;
   margin-top: -1px;
 }
 
@@ -613,7 +669,6 @@ a.navbar-brand:hover {
 .our-pricing .item #popular {
   position: absolute;
   color: #fff;
-  background: #06CEA8;
   padding: 5px 70px;
   font-size: 14px;
   top: 35px;
@@ -624,12 +679,10 @@ a.navbar-brand:hover {
 
 
 .our-pricing .item .order a {
-  border: 1px solid #06CEA8;
   border-radius: 20px;
   padding: 7px;
   width: 90%;
   display: inline-block;
-  background: #06CEA8;
   color: #fff;
   letter-spacing: 1px;
   transition: .3s ease-in-out;
@@ -637,7 +690,6 @@ a.navbar-brand:hover {
 
 .our-pricing .item .order a:hover {
   background: #fff;
-  color: #06CEA8;
 }
 
 /* === 9. TESTIMONIALS === */
@@ -689,24 +741,16 @@ a.navbar-brand:hover {
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  background: #06CEA8;
   width: 8px;
   height: 8px;
   margin: 0 10px;
 }
 
-.testimonials .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #06cea8;
-}
 .owl-theme .owl-dots .owl-dot:focus {
   outline: none;
 }
 
 /* === 10. CONTACT  === */
-
-.contact {
-  background: #06cea8;
-}
 
 .contact .title h4{
   margin-bottom: 30px;
@@ -766,7 +810,6 @@ a.navbar-brand:hover {
 
 .contact-item .button:hover {
   background: #fff;
-  color: #06cea8;
 }
 
 /* info */
@@ -779,6 +822,7 @@ a.navbar-brand:hover {
 .contact .item .icon {
   font-size: 35px;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .contact .item h6 {
@@ -786,6 +830,7 @@ a.navbar-brand:hover {
   text-transform: uppercase;
   font-size: 15px;
   margin-left: 15px;
+  color: #fff;
 }
 
 .contact .item h5 {
@@ -808,14 +853,12 @@ a.navbar-brand:hover {
   width: 45px;
   height: 45px;
   transition: .5s all;
-  background: #06cea8;
   border-radius: 50%;
   color: #fff;
   font-size: 29px;
 }
 
 .footer .social-icons span:hover {
-  color: #06cea8;
   background: #fff;
 }
 
